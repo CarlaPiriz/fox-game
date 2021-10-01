@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Frame and Background*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.frame {
+  height: 762px;
+  width: 762px;
+  position: relative;
+}
+.inner {
+  position: relative;
+}
+.game {
+  width: 628px;
+  height: 577px;
+  position: absolute;
+  top: 62px;
+  left: 67px;
+}
+.game.night {
+  width: 716px;
+  top: 62px;
+  left: -19px;
+}
+.hidden {
+  display: none;
+}
+/* Buttons*/
+.buttons {
+  position: absolute;
+  top: 674px;
+  left: 240px;
+  height: 71px;
+  width: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 576px;
+  left: 194px;
+  height: 67px;
+  width: 374px;
+}
+/*Otros iconos*/
+.poop-bag {
+  position: absolute;
+  top: 255px;
+  left: 150px;
+}
+.modal-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #f08080;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  top: 281px;
+  width: 45%;
+  display: block;
+  margin: auto;
+  font-weight: 600;
+  color: rgb(243, 242, 242);
+}
+.modal:empty {
+  display: none;
+}
+.modal-inner:empty {
+  display: none;
+}
+
+/*Fox*/
+.fox {
+  position: absolute;
+  top: 336px;
+  left: 285px;
+  overflow: hidden;
+}
+.fox-popping {
+  top: 319px;
+  left: 159px;
+}
+.fox-celebrate {
+  top: 290px;
+  left: 290px;
+}
+.fox-rain {
+  top: 362px;
+}
+.fox-hungry {
+  top: 362px;
+}
+.fox-eating {
+  top: 362px;
+}
+.fox-egg {
+  top: 289px;
+  left: 248px;
+}
+.fox-sleep {
+  top: 351px;
+  left: 455px;
+}
+.fox-dead {
+  top: 380px;
+  left: 243px;
+}
